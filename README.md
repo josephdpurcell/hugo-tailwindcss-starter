@@ -9,6 +9,21 @@ Uses inspiration from https://www.unsungnovelty.org/posts/03/2022/how-to-add-tai
 * Clone this repo
 * Change README
 
+For development:
+
+Watch for theme changes:
+
+```
+cd themes/tailwindcss/
+npx tailwindcss -i ./assets/main.css -o ./assets/style.css --watch
+```
+
+Watch for hugo changes:
+
+```
+hugo server --disableFastRender
+```
+
 ## How I created this repo
 
 ```
